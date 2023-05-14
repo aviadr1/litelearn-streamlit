@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "litelearn-streamlit"
+version = "0.1.0"
+description = ""
+authors = ["Aviad Rozenhek <aviadr1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+streamlit = "^1.22.0"
+seaborn = "^0.11"
+litelearn = "^0.3.0"
+ipython = "^8.13.1"
+streamlit-shap = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
